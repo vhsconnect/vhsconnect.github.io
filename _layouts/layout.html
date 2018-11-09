@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#"><head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+{% if page.front %}
+  <title>{{ site.title }}</title>
+{% else %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+{% endif %}
+<meta name="apple-mobile-web-app-title" content="{{ site.shortname }}" />
+<meta name="author" content="{{ site.primary_author }}" />
+<meta property="og:image" content="{{ '/apple-touch-icon.png' | absolute_url }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+{% else %}
+  <meta name="description" content="{{ content | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 155, '' }}" />
+  <meta property="og:description" content="{{ content | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 155, '' }}" />
+{% endif %}
+<link rel="stylesheet" type="text/css" href="{{'/deps/styles.css' | relative_url }}" />
+<link rel="alternate" type="application/rss+xml" href="http://www.fidoblog.com/?feed=rss2" title="Fido Dog Blog" />
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+</head><body class="page-{{ page.url | slugify }}">
+<div class="page" itemscope itemtype="http://schema.org/LocalBusiness">
+  {% include header.html %}
+  <center>{% include nav.html %}</center>
+  {% if page.regions.splash %}{% include splash.html %}{% endif %}
+	{{ content }}
+  {% if page.regions.free %}{% include free.html %}{% endif %}
+  {% if page.regions.contact %}{% include contact.html %}{% endif %}
+  {% if page.regions.cta %}{% include cta.html %}{% endif %}
+  {% if page.regions.testimonials %}{% include testimonials.html %}{% endif %}
+  {% include footer.html %}
+</div>
+</body></html>

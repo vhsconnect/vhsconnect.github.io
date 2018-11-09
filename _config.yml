@@ -1,0 +1,68 @@
+## Jekyll configs
+permalink: /:year/:month/:day/:title/
+highlighter: rouge
+kramdown: 
+  parse_block_html: true
+sass:
+  style: :compressed
+plugins:
+  - jemoji
+  - jekyll-sitemap
+
+## Site structure
+collections:
+  testimonials:
+    output: true
+    permalink: /testimonials/:title/
+  classes:
+    output: true
+    permalink: /classes/:path/
+  autopages:
+    output: true
+    permalink: /:title/
+  forms:
+    output: true
+    permalink: /forms/:title/
+  homepage:
+    output: true
+    permalink: /:title/  
+defaults:
+  -
+    scope:
+      path: ""
+      type: "autopages" # a collection in your site, in plural form
+    values:
+      layout: "autopage"
+  -
+    scope:
+      path: ""
+      type: "classes"
+    values:
+      layout: "class"
+  -
+    scope:
+      path: ""
+      type: "testimonials"
+    values:
+      layout: "testimonial"
+  -
+    scope:
+      path: ""
+      type: "forms"
+    values:
+      layout: "form"
+
+## Basic site info
+title: USAF Construction & Roofing
+primary_author: "USAF Construction"
+shortname: USAF
+email: usafconstruction@gmail.com
+phone: (313) 333-5790
+gaid: 
+
+## Open Graph
+og_street_address: 18906 Allen Rd
+og_locality: Melvindale
+og_region: MI
+og_postal_code: "48122"
+og_country: USA

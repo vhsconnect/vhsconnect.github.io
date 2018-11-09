@@ -1,0 +1,11 @@
+- title: New Construction
+  description: 'Are you looking for some of the best new construction on the market? We got you you covered.'
+  vector: largeIcon firstPillar
+
+- title: Roofing
+  description: 'Are you looking for some of the best roofing on the market? We got you you covered.'
+  vector: largeIcon secondPillar
+
+- title: Remodeling
+  description: 'Are you looking for some of the best new remodeling on the market? We got you you covered.'
+  vector: largeIcon thirdPillar

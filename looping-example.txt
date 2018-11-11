@@ -1,0 +1,18 @@
+looping over pages in _autopages
+
+
+<nav class="region"><div class="inner">
+{% assign pages = site.autopages | sort:"weight" %}
+<ul class="menu inline-block">
+  {% for p in pages %}
+  {% if p.exclude == null and p.weight %}
+ <li>
+   <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | relative_url }}">
+      {{ p.title }}
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+</div></nav>
+

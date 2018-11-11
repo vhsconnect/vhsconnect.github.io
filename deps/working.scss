@@ -1006,7 +1006,7 @@ ul.inline {
     text-decoration: inherit;
 
     &:hover {
-      
+      text-decoration: underline;
     }
   }
 }
@@ -1066,7 +1066,7 @@ header.region {
     hyphens: auto;
 
     &:hover {
-      background-color: hex-add($orange1, 1);
+      background-color: hex-add($orange1, -1);
       color: $light;
     }
 

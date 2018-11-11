@@ -1392,6 +1392,13 @@ footer.region {
   
 }
 
+.collapseSmall {
+  max-width: 600px;
+  @media only screen and (max-width: 700px) {
+      display: none;
+    }
+  }  
+
 
 .mediumImage {
   max-width: 600px;

@@ -1163,6 +1163,12 @@ section.region {
   }
 }
 
+.stretchMap {
+  background-size: cover;
+  position: relative;
+
+}
+
 .region-cta {
   background: hex-add($light, -1) url('images/ferndale-friends.jpg') top left scroll no-repeat;
   background-size: cover;

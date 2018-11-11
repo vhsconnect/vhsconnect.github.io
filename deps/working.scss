@@ -1051,6 +1051,12 @@ header.region {
   background-color: hex-add(#fff, 1);
   padding-bottom: 2em;
 
+  .icon {
+  &:before {
+    color: hex-add($light, 2);
+    }
+  }  
+
   a.button {
     background-color: $orange1;
     border-radius: 1.2em;

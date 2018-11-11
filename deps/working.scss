@@ -1164,10 +1164,22 @@ section.region {
 }
 
 .stretchMap {
-  background-size: cover;
-  position: relative;
+   @media all and (min-width: 960px) {
+      width: 735px;
+    }
+    @media all and (max-width: 960px) {
+      height: inherit;
 
-}
+      > .map {
+        height: 90px
+      }
+    }
+    @media all and (max-width: 560px) {
+      width: inherit;
+    }
+  }
+
+
 
 .region-cta {
   background: hex-add($light, -1) url('images/ferndale-friends.jpg') top left scroll no-repeat;

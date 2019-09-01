@@ -1,25 +1,40 @@
-<div class="region pre-footer"><div class="inner">
-  <h2>Request a call back</h2>
-  <form action="https://formspree.io/iabbass313@gmail.com" method="POST" />
+<div class="region pre-footer">
+  <div class="inner">
+    <h2>Request a call back</h2>
+    <form action="https://formspree.io/iabbass313@gmail.com" method="POST" />
     <label class="hide" for="form-phone">Phone Number</label>
     <input type="text" name="name" placeholder="John Doe">
     <input type="phone" id="form-phone" name="PHONE" placeholder="(313) 123-4567" />
     <button type="submit">Submit</button>
-  </form>
-</div></div>
-<footer class="region footer"><div class="inner">
-<div class="">
-<h3 class="">Made in Detroit, MI</h3>
-<ul class="">
-  <li>tel: {{site.phone}}</li>
-  <li>email: {{site.email}}</li></ul></div>
-<div class="collapseSmall">
-<iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.1433232403588!2d-83.14424804884321!3d42.296807146984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b33bd35f69767%3A0x6d8f1c6a8734bfa4!2s1250+Wyoming+Ave%2C+Dearborn%2C+MI+48120!5e0!3m2!1sen!2s!4v1541613052630" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div></footer>
-<div class="region copyright"><div class="inner">
-  <p>&copy; Copyright {{ site.time | date: '%Y' }} USAF Construction and Roofing, LLC.</p>
-  <center><div class="affiliations">
-    <a href="https://www.bbb.org/us/mi/melvindale/profile/general-contractor/usaf-construction-llc-0332-90031148" target="_blank">
-      <img alt="" src="{{ '/images/affiliations/bbb.png' | relative_url }}" />
-    </a>
-  </center></div>
-</div></div>
+    </form>
+  </div>
+</div>
+<footer class="region footer">
+  <div class="inner">
+    <div class="">
+      <h3 class="">Made in Detroit, MI</h3>
+      <ul class="">
+        <li>tel: {{site.phone}}</li>
+        <li>email: {{site.email}}</li>
+      </ul>
+    </div>
+    <div class="collapseSmall">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.969819049287!2d-83.18028294930407!3d42.32184247908739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b3490fcd05449%3A0x477c94a96b6b3ec2!2s13744%20Michigan%20Ave%2C%20Dearborn%2C%20MI%2048126!5e0!3m2!1sen!2sus!4v1567298056762!5m2!1sen!2sus"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+      </iframe>
+    </div>
+</footer>
+<div class="region copyright">
+  <div class="inner">
+    <p>&copy; Copyright {{ site.time | date: '%Y' }} USAF Construction and Roofing, LLC.</p>
+    <center>
+      <div class="affiliations">
+        <a href="https://www.bbb.org/us/mi/melvindale/profile/general-contractor/usaf-construction-llc-0332-90031148"
+          target="_blank">
+          <img alt="" src="{{ '/images/affiliations/bbb.png' | relative_url }}" />
+        </a>
+    </center>
+  </div>
+</div>
+</div>

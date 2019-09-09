@@ -1,19 +1,18 @@
 <section id="region">
-        <div class="container"><div class="row inline">
-                
-             <div class="row bunkbed">
-                {% for each in site.data.pillars %}
-                  <center><div class="col-sm-4 pillars">
-                  	<div class="{{ each.vector }}">
-                  	<h1>{{each.title}}</h1>
-                  	<p>{{each.description}}</p>
-                  	
-
-                  </div></div></center>
-                {% endfor %}
+  <div class="container">
+    <div class="row inline">
+      <div class="row bunkbed">
+        {% for each in site.data.pillars %}
+        <center>
+          <div class="col-sm-4 pillars">
+            <div class="{{ each.vector }}">
+              <h1>{{each.title}}</h1>
+              <p>{{each.description}}</p>
             </div>
-                
-            </div></div></section>
-
-
-
+          </div>
+        </center>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -450,13 +450,15 @@ svg:not(:root) {
 
 /*--Classes/Roles--*/
 .caption {
-  background: hex-add($primary, 2);
+  background: $primary; 
   color: $light;
-  padding: 5px;
+  padding: 10px;
+  text-align: right;
+
 
   a {
     color: $light;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   address {
@@ -467,7 +469,6 @@ svg:not(:root) {
   position: relative;
 
   .caption {
-    background: rgba(hex-add($primary,1),.5);
     bottom: 0;
     position: absolute;
     left: 0;
@@ -1448,5 +1449,20 @@ figure {
   * {
     background: transparent !important;
     color: #000 !important;
+    
   }
 }
+
+
+/* sept 2019 */
+
+.date-post {
+  background: $secondary;
+  color: white;
+  font-size: 2.5rem;
+  width: 100%;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+} 

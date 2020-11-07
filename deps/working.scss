@@ -1051,7 +1051,6 @@ ul.inline {
 header.region {
   background-color: hex-add(#fff, 1);
   padding-bottom: 2em;
-
   .icon {
   &:before {
     color: hex-add($light, 2);
@@ -1248,8 +1247,9 @@ section.region {
 }
 
 footer.region {
-  background-color: hex-add($light, -11);
+  background-color: whitesmoke;
   padding: 25px 0 0;
+  text-align: center;
 
   > .inner {
     > div {

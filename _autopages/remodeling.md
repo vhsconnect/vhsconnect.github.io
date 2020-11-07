@@ -8,13 +8,10 @@ regions:
 <center><img class="grid one-half topBed" src="{{ '/images/construction-photos/good-burger-dearborn.jpg' | relative_url }}">
 <img class="grid one-half topBed" src="{{ '/images/construction-photos/fireplace-upgrade.jpg' | relative_url }}"></center>
 
-## Home remodeling 
+## Home remodeling
 
-Remodeling your home can be a daunting task. Homes in south east Michigan are built to last, and the last thing you want to do is to bring someone in that messes your foundation. When you contract Usaf to work on your home, you get just that, Usaf himself. For better or worse, you don't go through any salesmen or secretaries, all your communications are directly with me, the crew chief.
+Remodeling your home can be a daunting task. Homes in Michigan are built to last. The last thing you want to do is to bring someone in that compromises the structure of your home. When you contract USAF Construction to work on your home, you get just that. I will meet with you to discuss your vision, budget and the timeframe that you’re looking at. My experienced and qualified team will then make your vision a reality.
 
 ## Business renovation
 
-Rennovating your business is one of the easy ways to increase foot traffic to your store. But don't just take my word for it. Go check out my work at Good Burger in Dearborn. They had a very specific idea of what they wanted, a "Five Guys" clone, so I obliged. Let me know what your vision is and I will make happen.
-
-
-
+Renovating your business is one of the best ways to increase foot traffic to your store. When having exceptional product or providing amazing services you want to have that renovated look that will stop someone dead in their tracks and curiously pull them in. My renovation will help contribute to your success. Check out my work at Good Burger in Dearborn. They had a very specific idea of what they wanted, a “Five Guys” clone, so I obliged. I can do the same for you. Let me know what your vision is and I will make happen.
